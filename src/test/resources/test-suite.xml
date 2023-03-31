@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="arquillian-reproducer" verbose="2" configfailurepolicy="continue" >
+
+    <test name="reproducer IT">
+        <classes>
+            <class name="com.example.arquillianreproducer.HelloIT"></class>
+        </classes>
+    </test>
+
+</suite>
